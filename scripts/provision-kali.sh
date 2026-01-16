@@ -3,7 +3,7 @@ set -e
 
 USER_HOME="/home/vagrant"
 ATTACK_SCRIPT="$USER_HOME/dvwa_attack.sh"
-DVWA_IP="192.168.56.20"   # Change to match your vuln-web VM IP
+DVWA_IP="192.168.56.20"
 
 echo "[+] Updating Kali packages..."
 apt update -y

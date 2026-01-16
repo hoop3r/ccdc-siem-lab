@@ -115,3 +115,10 @@ For the scope of this lab, I have left the agent in the default group. We must c
 12. Menu → Explore → Discover in the Wazuh dashboard is the central location for all alerting. Practice filtering by agent.name to filter out any noise 
 13. Refer to public write-ups on DVWA and experiment with their attacks on the website itself. What can Wazuh detect? What are its limitations? 
 14. Try a command injection attack that writes to the web directory. Navigate to `http://192.168.56.20/DVWA/vulnerabilities/exec` . Try entering `127.0.0.1 ; echo “testing testing 123” > test.txt` into the text box and hit submit. It logged by FIM? Notice the timestamp. How closely does it reflect the time of the attack?
+
+
+## References 
+
+https://github.com/digininja/DVWA
+
+https://github.com/wazuh/wazuh
